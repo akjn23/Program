@@ -18,6 +18,10 @@ public class Solution
             min = sc.nextInt();
             max = sc.nextInt();
             System.out.println(min + " " + max);
+            for(j=min;j<=max;j++0
+                {
+                    a[j-1] = 1;
+                }
             
         }
         j = 0;
