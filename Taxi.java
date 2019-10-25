@@ -40,12 +40,12 @@ public class Taxi
         {
             d =0;
         }
-        x = x + (int)Math.ceil(c/2);
+        x = x + (int)Math.ceil(c/2.0);
         if(c%2 ==0)
             x = x + (int)Math.ceil(d/4.0);
         else
         {
-            x = x + (int)Math.ceil((d)/4.0);
+            x = x + (int)Math.ceil((d-2)/4.0);
         }
         System.out.println(x);
         
